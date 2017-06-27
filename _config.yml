@@ -1,6 +1,9 @@
 #### Exclude
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", ".atomignore", ".hidden"]
 
+#### Include
+include: ["_pages"]
+
 #### Code Highlighter
 # 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
@@ -158,24 +161,10 @@ simple_jekyll_search:
   enable: true
   fulltext: false
 
-#### HTML Compression add to front-matter of _layouts/default.html
-# layout: compress
-compress_html:    # http://jch.penibelst.de/
-  profile: false  # List saved bytes
-  clippings: all
-  comments: all
-  endings: all
-  blanklines: false
-  startings: []
-  ignore:
-    envs: [local, dev]
-
 #### Miscellaneous
 footer_hidden: false
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
-include: ["_pages"]
 
 gems:
  - jemoji
-#- jekyll-admin
