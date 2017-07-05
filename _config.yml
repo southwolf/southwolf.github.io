@@ -37,10 +37,10 @@ defaults:
 paginate: 20
 
 #### Site
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : Southwolf's BLOG
+tagline: A blog of southwolf
 assets: /assets
-baseurl:
+baseurl: blog.southwolf.me
 
 #### Language
 language: zh-CN   ## blog site languages: en, zh-CN, zh-TW, de
@@ -91,19 +91,19 @@ share_to: true #enable share-to buttons if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
-  weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  name: southwolf      ## e.g. wuchong Author name
+  intro_line1:  "Just another soul in this world."    ## your introduction on the bottom of the page
+  # intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  weibo: southwolf1813     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
-  douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email:      ## e.g. imjark@gmail.com
-  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github:     ## e.g. wuchong for https://github.com/wuchong
-  facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  tsina: 1888826001   ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  douban: southwolf    ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  zhihu: southwolf     ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: wp.southwolf@gmail.com      ## e.g. imjark@gmail.com
+  twitter: southwolf1813   ## e.g. jarkwu for https://twitter.com/jarkwu
+  github: southwolf   ## e.g. wuchong for https://github.com/wuchong
+  facebook: fei.song.393  ## e.g. imjark for https://facebook.com/imjark
+  linkedin: song-fei-97984656  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
@@ -117,11 +117,10 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  
 
 #### Comment
-disqus_shortname:     ## e.g. wuchong      your disqus short name.        website: http://disqus.com
+disqus_shortname: feisong    ## e.g. wuchong      your disqus short name.        website: http://disqus.com
 hypercomments_id:     ## e.g. 91510        your hypercomments widget id.  website: http://hypercomments.com
 yungentie_productkey: ## your netease yungentie product key.              website: https://gentie.163.com
 ## set only one of them
